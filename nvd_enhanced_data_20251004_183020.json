@@ -1,0 +1,1269 @@
+{
+  "metadata": {
+    "fetch_timestamp": "2025-10-04T13:00:20.649605+00:00",
+    "source": "NVD API v2.0",
+    "total_cves": 20,
+    "date_range": {
+      "days_back": 7,
+      "start_date": "2025-09-27T13:00:20.649605+00:00",
+      "end_date": "2025-10-04T13:00:20.649605+00:00"
+    }
+  },
+  "cves": [
+    {
+      "external_id": "CVE-2025-40647",
+      "title": "CVE-2025-40647",
+      "description": "Stored Cross-Site Scripting (XSS) vulnerability in Issabel v5.0.0, consisting of a stored XSS due to a lack of proper validation of user input, through the 'email' parameter in '/index.php?menu=address_book'.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T13:15:31.540",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Awaiting Analysis",
+        "source_identifier": "cve-coordination@incibe.es",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [
+          "CWE-79"
+        ],
+        "cwe_ids": [
+          "79"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-issabel-products",
+            "source": "cve-coordination@incibe.es",
+            "tags": []
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV40"
+        ],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "cwe_id:79",
+        "vulnerability",
+        "cve",
+        "cwe:cwe-79",
+        "severity:unknown"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40647",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T13:15:31.540",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.596220+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-40648",
+      "title": "CVE-2025-40648",
+      "description": "Stored Cross-Site Scripting (XSS) vulnerability in Issabel v5.0.0, consisting of a stored XSS due to a lack of proper validation of user input, through the 'numero_conferencia' parameter in '/index.php?menu=conferencia'.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T13:15:31.747",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Awaiting Analysis",
+        "source_identifier": "cve-coordination@incibe.es",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [
+          "CWE-79"
+        ],
+        "cwe_ids": [
+          "79"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-issabel-products",
+            "source": "cve-coordination@incibe.es",
+            "tags": []
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV40"
+        ],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "cwe_id:79",
+        "vulnerability",
+        "cve",
+        "cwe:cwe-79",
+        "severity:unknown"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40648",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T13:15:31.747",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.596220+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-41421",
+      "title": "CVE-2025-41421",
+      "description": "Improper handling of symbolic links in the TeamViewer Full Client and Host for Windows — in versions prior to 15.70 of TeamViewer Remote and Tensor — allows an attacker with local, unprivileged access to a device lacking adequate malware protection to escalate privileges by spoofing the update file path. This may result in unauthorized access to sensitive information.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 4.7,
+      "metadata": {
+        "published_date": "2025-10-01T14:15:39.953",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Awaiting Analysis",
+        "source_identifier": "psirt@teamviewer.com",
+        "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "cvss_details": {
+          "attackVector": "LOCAL",
+          "attackComplexity": "HIGH",
+          "privilegesRequired": "LOW",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "NONE",
+          "availabilityImpact": "NONE",
+          "version": "CVSS 31",
+          "exploitabilityScore": 1.0,
+          "impactScore": 3.6
+        },
+        "cwe_list": [
+          "CWE-59"
+        ],
+        "cwe_ids": [
+          "59"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://www.teamviewer.com/en/resources/trust-center/security-bulletins/tv-2025-1004/",
+            "source": "psirt@teamviewer.com",
+            "tags": []
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "cwe:cwe-59",
+        "attack_vector:local",
+        "privileges:low",
+        "vulnerability",
+        "cve",
+        "severity:unknown",
+        "cwe_id:59"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41421",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T14:15:39.953",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.596220+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-52039",
+      "title": "CVE-2025-52039",
+      "description": "In Frappe ERPNext 15.57.5, the function get_material_requests_based_on_supplier() at erpnext/stock/doctype/material_request/material_request.py is vulnerable to SQL Injection, which allows an attacker to extract all information from databases by injecting a SQL query into the txt parameter.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 8.2,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:45.690",
+        "last_modified_date": "2025-10-03T16:19:33.753",
+        "vuln_status": "Analyzed",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+        "cvss_details": {
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "LOW",
+          "availabilityImpact": "NONE",
+          "version": "CVSS 31",
+          "exploitabilityScore": 3.9,
+          "impactScore": 4.2
+        },
+        "cwe_list": [
+          "CWE-89"
+        ],
+        "cwe_ids": [
+          "89"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://github.com/Vietsunshine-Electronic-Solution-JSC/Vulnerability-Disclosures/blob/main/2025/Frappe%20Framework%20-%20Multiple%20SQL%20Injection.md",
+            "source": "cve@mitre.org",
+            "tags": [
+              "Exploit",
+              "Third Party Advisory"
+            ]
+          },
+          {
+            "url": "https://github.com/frappe/erpnext/pull/49192/commits/de919568b4f7a86c8d418c0c3fd88e1f3101696c",
+            "source": "cve@mitre.org",
+            "tags": [
+              "Patch"
+            ]
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 1,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "vulnerability",
+        "cve",
+        "privileges:none",
+        "severity:unknown",
+        "attack_vector:network",
+        "cwe_id:89",
+        "cwe:cwe-89"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52039",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:45.690",
+      "last_updated_from_source": "2025-10-03T16:19:33.753",
+      "ingested_at": "2025-10-04T13:00:19.611282+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-52040",
+      "title": "CVE-2025-52040",
+      "description": "In Frappe ERPNext 15.57.5, the function get_blanket_orders() at erpnext/controllers/queries.py is vulnerable to SQL Injection, which allows an attacker can extract all information from databases by injecting a SQL query into the blanket_order_type parameter.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 8.2,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:46.197",
+        "last_modified_date": "2025-10-03T16:19:24.933",
+        "vuln_status": "Analyzed",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+        "cvss_details": {
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "LOW",
+          "availabilityImpact": "NONE",
+          "version": "CVSS 31",
+          "exploitabilityScore": 3.9,
+          "impactScore": 4.2
+        },
+        "cwe_list": [
+          "CWE-89"
+        ],
+        "cwe_ids": [
+          "89"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://github.com/Vietsunshine-Electronic-Solution-JSC/Vulnerability-Disclosures/blob/main/2025/Frappe%20Framework%20-%20Multiple%20SQL%20Injection.md",
+            "source": "cve@mitre.org",
+            "tags": [
+              "Exploit",
+              "Third Party Advisory"
+            ]
+          },
+          {
+            "url": "https://github.com/frappe/erpnext/pull/49192/commits/1db135262d9474411ef54e3367d24bb169d2503e",
+            "source": "cve@mitre.org",
+            "tags": [
+              "Patch"
+            ]
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 1,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "vulnerability",
+        "cve",
+        "privileges:none",
+        "severity:unknown",
+        "attack_vector:network",
+        "cwe_id:89",
+        "cwe:cwe-89"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52040",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:46.197",
+      "last_updated_from_source": "2025-10-03T16:19:24.933",
+      "ingested_at": "2025-10-04T13:00:19.612290+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-52041",
+      "title": "CVE-2025-52041",
+      "description": "In Frappe ERPNext 15.57.5, the function get_stock_balance_for() at erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py is vulnerable to SQL Injection, which allows an attacker to extract all information from databases by injecting a SQL query into the inventory_dimensions_dict parameter.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 8.2,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:46.537",
+        "last_modified_date": "2025-10-03T16:19:17.207",
+        "vuln_status": "Analyzed",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+        "cvss_details": {
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "LOW",
+          "availabilityImpact": "NONE",
+          "version": "CVSS 31",
+          "exploitabilityScore": 3.9,
+          "impactScore": 4.2
+        },
+        "cwe_list": [
+          "CWE-89"
+        ],
+        "cwe_ids": [
+          "89"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://github.com/Vietsunshine-Electronic-Solution-JSC/Vulnerability-Disclosures/blob/main/2025/Frappe%20Framework%20-%20Multiple%20SQL%20Injection.md",
+            "source": "cve@mitre.org",
+            "tags": [
+              "Exploit",
+              "Third Party Advisory"
+            ]
+          },
+          {
+            "url": "https://github.com/frappe/erpnext/pull/49192/commits/eb22794f14351c2ff5731548c48bef0b91765c86",
+            "source": "cve@mitre.org",
+            "tags": [
+              "Patch"
+            ]
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 1,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "vulnerability",
+        "cve",
+        "privileges:none",
+        "severity:unknown",
+        "attack_vector:network",
+        "cwe_id:89",
+        "cwe:cwe-89"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52041",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:46.537",
+      "last_updated_from_source": "2025-10-03T16:19:17.207",
+      "ingested_at": "2025-10-04T13:00:19.612290+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-52042",
+      "title": "CVE-2025-52042",
+      "description": "In Frappe ERPNext 15.57.5, the function get_rfq_containing_supplier() at erpnext/buying/doctype/request_for_quotation/request_for_quotation.py is vulnerable to SQL Injection, which allows an attacker to extract all information from databases by injecting SQL query via the txt parameter.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 8.2,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:46.920",
+        "last_modified_date": "2025-10-03T16:19:08.710",
+        "vuln_status": "Analyzed",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+        "cvss_details": {
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "LOW",
+          "availabilityImpact": "NONE",
+          "version": "CVSS 31",
+          "exploitabilityScore": 3.9,
+          "impactScore": 4.2
+        },
+        "cwe_list": [
+          "CWE-89"
+        ],
+        "cwe_ids": [
+          "89"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://github.com/Vietsunshine-Electronic-Solution-JSC/Vulnerability-Disclosures/blob/main/2025/Frappe%20Framework%20-%20Multiple%20SQL%20Injection.md",
+            "source": "cve@mitre.org",
+            "tags": [
+              "Exploit",
+              "Third Party Advisory"
+            ]
+          },
+          {
+            "url": "https://github.com/frappe/erpnext/pull/49192/commits/7f2a52ff71a1fd5d4a9034cf217094c0be9f341a",
+            "source": "cve@mitre.org",
+            "tags": [
+              "Patch"
+            ]
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 1,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "vulnerability",
+        "cve",
+        "privileges:none",
+        "severity:unknown",
+        "attack_vector:network",
+        "cwe_id:89",
+        "cwe:cwe-89"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52042",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:46.920",
+      "last_updated_from_source": "2025-10-03T16:19:08.710",
+      "ingested_at": "2025-10-04T13:00:19.614299+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-57275",
+      "title": "CVE-2025-57275",
+      "description": "Storage Performance Development Kit (SPDK) 25.05 is vulnerable to Buffer Overflow in the NVMe-oF target component in SPDK - lib/nvmf.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:47.263",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Awaiting Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [],
+        "cwe_ids": [],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://github.com/spdk/spdk/commit/f786c6d75f5c5162363a621b24f5449c729679c9",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://spdk.io/",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 0
+      },
+      "tags": [
+        "severity:unknown",
+        "vulnerability",
+        "cve"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57275",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:47.263",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.618315+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-59684",
+      "title": "CVE-2025-59684",
+      "description": "DigiSign DigiSigner ONE 1.0.4.60 allows DLL Hijacking.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 8.8,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:47.583",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Awaiting Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "cvss_details": {
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "LOW",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "HIGH",
+          "availabilityImpact": "HIGH",
+          "version": "CVSS 31",
+          "exploitabilityScore": 2.8,
+          "impactScore": 5.9
+        },
+        "cwe_list": [
+          "CWE-427"
+        ],
+        "cwe_ids": [
+          "427"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://digisign.ro/products-services/signing-applications/",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2025-59684",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "privileges:low",
+        "vulnerability",
+        "cve",
+        "cwe_id:427",
+        "cwe:cwe-427",
+        "severity:unknown",
+        "attack_vector:network"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59684",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:47.583",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.619560+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-59685",
+      "title": "CVE-2025-59685",
+      "description": "Kazaar 1.25.12 allows a JWT with none in the alg field.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:48.317",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Awaiting Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [],
+        "cwe_ids": [],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2025-59685",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://www.kazaar.com/",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 0
+      },
+      "tags": [
+        "severity:unknown",
+        "vulnerability",
+        "cve"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59685",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:48.317",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.620305+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-59686",
+      "title": "CVE-2025-59686",
+      "description": "Kazaar 1.25.12 allows /api/v1/org-id/orders/order-id/documents calls with a modified order-id.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:48.550",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Awaiting Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [],
+        "cwe_ids": [],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2025-59686",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://www.kazaar.com/",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 0
+      },
+      "tags": [
+        "severity:unknown",
+        "vulnerability",
+        "cve"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59686",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:48.550",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.620305+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-59687",
+      "title": "CVE-2025-59687",
+      "description": "IMPAQTR Aurora before 1.36 allows Insecure Direct Object Reference attacks against the users list, organization details, bookmarks, and notifications of an arbitrary organization.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:48.750",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Awaiting Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [],
+        "cwe_ids": [],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 2,
+        "references_sample": [
+          {
+            "url": "https://aurora-impaqtr.com/",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2025-59687",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 0
+      },
+      "tags": [
+        "severity:unknown",
+        "vulnerability",
+        "cve"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59687",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:48.750",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.622317+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-61044",
+      "title": "CVE-2025-61044",
+      "description": "TOTOLINK X18 V9.1.0cu.2053_B20230309 was discovered to contain a command injection vulnerability via the agentName parameter in the setEasyMeshAgentCfg function.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:49.013",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Undergoing Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [],
+        "cwe_ids": [],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://github.com/ilovekeer/IOT/blob/main/TOTOLINK/X18/setEasyMeshAgentCfg/2.md",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 0
+      },
+      "tags": [
+        "severity:unknown",
+        "vulnerability",
+        "cve"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61044",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:49.013",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.622317+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-61045",
+      "title": "CVE-2025-61045",
+      "description": "TOTOLINK X18 V9.1.0cu.2053_B20230309 was discovered to contain a command injection vulnerability via the mac parameter in the setEasyMeshAgentCfg function.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T15:15:49.260",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Undergoing Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [],
+        "cwe_ids": [],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://github.com/ilovekeer/IOT/blob/main/TOTOLINK/X18/setEasyMeshAgentCfg/1.md",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 0
+      },
+      "tags": [
+        "severity:unknown",
+        "vulnerability",
+        "cve"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61045",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T15:15:49.260",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.622317+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2023-50301",
+      "title": "CVE-2023-50301",
+      "description": "IBM Transformation Extender Advanced 10.0.1 stores potentially sensitive information in log files that could be read by a local user.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 1.9,
+      "metadata": {
+        "published_date": "2025-10-01T16:15:51.920",
+        "last_modified_date": "2025-10-03T17:37:34.370",
+        "vuln_status": "Analyzed",
+        "source_identifier": "psirt@us.ibm.com",
+        "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N",
+        "cvss_details": {
+          "attackVector": "LOCAL",
+          "attackComplexity": "HIGH",
+          "privilegesRequired": "HIGH",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "LOW",
+          "integrityImpact": "NONE",
+          "availabilityImpact": "NONE",
+          "version": "CVSS 31",
+          "exploitabilityScore": 0.5,
+          "impactScore": 1.4
+        },
+        "cwe_list": [
+          "CWE-532"
+        ],
+        "cwe_ids": [
+          "532"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://www.ibm.com/support/pages/node/7246882",
+            "source": "psirt@us.ibm.com",
+            "tags": [
+              "Vendor Advisory"
+            ]
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 1,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "attack_vector:local",
+        "vulnerability",
+        "cve",
+        "severity:unknown",
+        "privileges:high",
+        "cwe:cwe-532",
+        "cwe_id:532"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50301",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T16:15:51.920",
+      "last_updated_from_source": "2025-10-03T17:37:34.370",
+      "ingested_at": "2025-10-04T13:00:19.624330+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-56514",
+      "title": "CVE-2025-56514",
+      "description": "Cross Site Scripting (XSS) vulnerability in Fiora chat application 1.0.0 allows executes arbitrary JavaScript when malicious SVG files are rendered by other users.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": null,
+      "metadata": {
+        "published_date": "2025-10-01T16:15:53.067",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Undergoing Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": null,
+        "cvss_details": {},
+        "cwe_list": [],
+        "cwe_ids": [],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 3,
+        "references_sample": [
+          {
+            "url": "https://fiora.suisuijiang.com/",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://github.com/Kov404/CVE-2025-56514/tree/main",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://github.com/yinxin630/fiora",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 0
+      },
+      "tags": [
+        "severity:unknown",
+        "vulnerability",
+        "cve"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56514",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T16:15:53.067",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.625030+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2025-56515",
+      "title": "CVE-2025-56515",
+      "description": "File upload vulnerability in Fiora chat application 1.0.0 through user avatar upload functionality. The application fails to validate SVG file content, allowing malicious SVG files with embedded foreignObject elements containing iframe tags and JavaScript event handlers (onmouseover) to be uploaded and stored. When rendered, these SVG files execute arbitrary JavaScript, enabling attackers to steal user sessions, cookies, and perform unauthorized actions in the context of users viewing affected profiles.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 8.8,
+      "metadata": {
+        "published_date": "2025-10-01T16:15:53.217",
+        "last_modified_date": "2025-10-02T19:11:46.753",
+        "vuln_status": "Undergoing Analysis",
+        "source_identifier": "cve@mitre.org",
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+        "cvss_details": {
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "userInteraction": "REQUIRED",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "HIGH",
+          "availabilityImpact": "HIGH",
+          "version": "CVSS 31",
+          "exploitabilityScore": 2.8,
+          "impactScore": 5.9
+        },
+        "cwe_list": [
+          "CWE-79",
+          "CWE-434"
+        ],
+        "cwe_ids": [
+          "79",
+          "434"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 3,
+        "references_sample": [
+          {
+            "url": "https://fiora.suisuijiang.com/",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://github.com/Kov404/CVE-2025-56515/tree/main",
+            "source": "cve@mitre.org",
+            "tags": []
+          },
+          {
+            "url": "https://github.com/yinxin630/fiora",
+            "source": "cve@mitre.org",
+            "tags": []
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 0,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "cwe_id:79",
+        "cwe:cwe-434",
+        "vulnerability",
+        "cve",
+        "cwe:cwe-79",
+        "privileges:none",
+        "severity:unknown",
+        "attack_vector:network",
+        "cwe_id:434"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56515",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T16:15:53.217",
+      "last_updated_from_source": "2025-10-02T19:11:46.753",
+      "ingested_at": "2025-10-04T13:00:19.625030+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2023-49881",
+      "title": "CVE-2023-49881",
+      "description": "IBM Transformation Extender Advanced 10.0.1 \n\ndoes not invalidate session after logout which could allow an authenticated user to impersonate another user on the system.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 6.3,
+      "metadata": {
+        "published_date": "2025-10-01T17:15:37.367",
+        "last_modified_date": "2025-10-03T17:38:09.453",
+        "vuln_status": "Analyzed",
+        "source_identifier": "psirt@us.ibm.com",
+        "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+        "cvss_details": {
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "LOW",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "LOW",
+          "integrityImpact": "LOW",
+          "availabilityImpact": "LOW",
+          "version": "CVSS 31",
+          "exploitabilityScore": 2.8,
+          "impactScore": 3.4
+        },
+        "cwe_list": [
+          "CWE-613"
+        ],
+        "cwe_ids": [
+          "613"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://www.ibm.com/support/pages/node/7246882",
+            "source": "psirt@us.ibm.com",
+            "tags": [
+              "Vendor Advisory"
+            ]
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 1,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "privileges:low",
+        "vulnerability",
+        "cve",
+        "severity:unknown",
+        "attack_vector:network",
+        "cwe:cwe-613",
+        "cwe_id:613"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49881",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T17:15:37.367",
+      "last_updated_from_source": "2025-10-03T17:38:09.453",
+      "ingested_at": "2025-10-04T13:00:19.630130+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2023-49883",
+      "title": "CVE-2023-49883",
+      "description": "IBM Transformation Extender Advanced 10.0.1 \n\n\n\n\n\ndoes not require that users should have strong passwords by default, which makes it easier for attackers to compromise user accounts.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 5.9,
+      "metadata": {
+        "published_date": "2025-10-01T17:15:37.643",
+        "last_modified_date": "2025-10-03T17:38:45.517",
+        "vuln_status": "Analyzed",
+        "source_identifier": "psirt@us.ibm.com",
+        "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "cvss_details": {
+          "attackVector": "NETWORK",
+          "attackComplexity": "HIGH",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "HIGH",
+          "integrityImpact": "NONE",
+          "availabilityImpact": "NONE",
+          "version": "CVSS 31",
+          "exploitabilityScore": 2.2,
+          "impactScore": 3.6
+        },
+        "cwe_list": [
+          "CWE-521"
+        ],
+        "cwe_ids": [
+          "521"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://www.ibm.com/support/pages/node/7246885",
+            "source": "psirt@us.ibm.com",
+            "tags": [
+              "Vendor Advisory"
+            ]
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 1,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "cwe_id:521",
+        "vulnerability",
+        "cve",
+        "privileges:none",
+        "severity:unknown",
+        "attack_vector:network",
+        "cwe:cwe-521"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49883",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T17:15:37.643",
+      "last_updated_from_source": "2025-10-03T17:38:45.517",
+      "ingested_at": "2025-10-04T13:00:19.631901+00:00",
+      "data_version": "1.0"
+    },
+    {
+      "external_id": "CVE-2023-50300",
+      "title": "CVE-2023-50300",
+      "description": "IBM Transformation Extender Advanced 10.0.1 \n\n\n\ncould allow a local user to perform unauthorized actions due to improper access controls.",
+      "category": "vulnerability",
+      "severity": "Unknown",
+      "cvss_score": 5.1,
+      "metadata": {
+        "published_date": "2025-10-01T17:15:37.823",
+        "last_modified_date": "2025-10-03T17:39:03.993",
+        "vuln_status": "Analyzed",
+        "source_identifier": "psirt@us.ibm.com",
+        "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "cvss_details": {
+          "attackVector": "LOCAL",
+          "attackComplexity": "HIGH",
+          "privilegesRequired": "NONE",
+          "userInteraction": "NONE",
+          "scope": "UNCHANGED",
+          "confidentialityImpact": "NONE",
+          "integrityImpact": "HIGH",
+          "availabilityImpact": "NONE",
+          "version": "CVSS 31",
+          "exploitabilityScore": 1.4,
+          "impactScore": 3.6
+        },
+        "cwe_list": [
+          "CWE-284"
+        ],
+        "cwe_ids": [
+          "284"
+        ],
+        "affected_products_count": 0,
+        "affected_products_sample": [],
+        "vendors": [],
+        "products": [],
+        "references_count": 1,
+        "references_sample": [
+          {
+            "url": "https://www.ibm.com/support/pages/node/7246882",
+            "source": "psirt@us.ibm.com",
+            "tags": [
+              "Vendor Advisory"
+            ]
+          }
+        ],
+        "metrics_available": [
+          "cvssMetricV31"
+        ],
+        "raw_configurations_count": 1,
+        "raw_weaknesses_count": 1
+      },
+      "tags": [
+        "cwe_id:284",
+        "attack_vector:local",
+        "vulnerability",
+        "cve",
+        "privileges:none",
+        "severity:unknown",
+        "cwe:cwe-284"
+      ],
+      "original_source_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50300",
+      "actual_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "source_name": "NVD API",
+      "published_date": "2025-10-01T17:15:37.823",
+      "last_updated_from_source": "2025-10-03T17:39:03.993",
+      "ingested_at": "2025-10-04T13:00:19.631901+00:00",
+      "data_version": "1.0"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "external_id": "CVE-2025-40647",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T13:15:31.540",
+    "vendors": [],
+    "products": [],
+    "description": "Stored Cross-Site Scripting (XSS) vulnerability in Issabel v5.0.0, consisting of a stored XSS due to a lack of proper validation of user input, through the 'email' parameter in '/index.php?menu=addres"
+  },
+  {
+    "external_id": "CVE-2025-40648",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T13:15:31.747",
+    "vendors": [],
+    "products": [],
+    "description": "Stored Cross-Site Scripting (XSS) vulnerability in Issabel v5.0.0, consisting of a stored XSS due to a lack of proper validation of user input, through the 'numero_conferencia' parameter in '/index.ph"
+  },
+  {
+    "external_id": "CVE-2025-41421",
+    "severity": "Unknown",
+    "cvss_score": 4.7,
+    "published_date": "2025-10-01T14:15:39.953",
+    "vendors": [],
+    "products": [],
+    "description": "Improper handling of symbolic links in the TeamViewer Full Client and Host for Windows — in versions prior to 15.70 of TeamViewer Remote and Tensor — allows an attacker with local, unprivileged access"
+  },
+  {
+    "external_id": "CVE-2025-52039",
+    "severity": "Unknown",
+    "cvss_score": 8.2,
+    "published_date": "2025-10-01T15:15:45.690",
+    "vendors": [],
+    "products": [],
+    "description": "In Frappe ERPNext 15.57.5, the function get_material_requests_based_on_supplier() at erpnext/stock/doctype/material_request/material_request.py is vulnerable to SQL Injection, which allows an attacker"
+  },
+  {
+    "external_id": "CVE-2025-52040",
+    "severity": "Unknown",
+    "cvss_score": 8.2,
+    "published_date": "2025-10-01T15:15:46.197",
+    "vendors": [],
+    "products": [],
+    "description": "In Frappe ERPNext 15.57.5, the function get_blanket_orders() at erpnext/controllers/queries.py is vulnerable to SQL Injection, which allows an attacker can extract all information from databases by in"
+  },
+  {
+    "external_id": "CVE-2025-52041",
+    "severity": "Unknown",
+    "cvss_score": 8.2,
+    "published_date": "2025-10-01T15:15:46.537",
+    "vendors": [],
+    "products": [],
+    "description": "In Frappe ERPNext 15.57.5, the function get_stock_balance_for() at erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py is vulnerable to SQL Injection, which allows an attacker to extrac"
+  },
+  {
+    "external_id": "CVE-2025-52042",
+    "severity": "Unknown",
+    "cvss_score": 8.2,
+    "published_date": "2025-10-01T15:15:46.920",
+    "vendors": [],
+    "products": [],
+    "description": "In Frappe ERPNext 15.57.5, the function get_rfq_containing_supplier() at erpnext/buying/doctype/request_for_quotation/request_for_quotation.py is vulnerable to SQL Injection, which allows an attacker "
+  },
+  {
+    "external_id": "CVE-2025-57275",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T15:15:47.263",
+    "vendors": [],
+    "products": [],
+    "description": "Storage Performance Development Kit (SPDK) 25.05 is vulnerable to Buffer Overflow in the NVMe-oF target component in SPDK - lib/nvmf."
+  },
+  {
+    "external_id": "CVE-2025-59684",
+    "severity": "Unknown",
+    "cvss_score": 8.8,
+    "published_date": "2025-10-01T15:15:47.583",
+    "vendors": [],
+    "products": [],
+    "description": "DigiSign DigiSigner ONE 1.0.4.60 allows DLL Hijacking."
+  },
+  {
+    "external_id": "CVE-2025-59685",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T15:15:48.317",
+    "vendors": [],
+    "products": [],
+    "description": "Kazaar 1.25.12 allows a JWT with none in the alg field."
+  },
+  {
+    "external_id": "CVE-2025-59686",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T15:15:48.550",
+    "vendors": [],
+    "products": [],
+    "description": "Kazaar 1.25.12 allows /api/v1/org-id/orders/order-id/documents calls with a modified order-id."
+  },
+  {
+    "external_id": "CVE-2025-59687",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T15:15:48.750",
+    "vendors": [],
+    "products": [],
+    "description": "IMPAQTR Aurora before 1.36 allows Insecure Direct Object Reference attacks against the users list, organization details, bookmarks, and notifications of an arbitrary organization."
+  },
+  {
+    "external_id": "CVE-2025-61044",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T15:15:49.013",
+    "vendors": [],
+    "products": [],
+    "description": "TOTOLINK X18 V9.1.0cu.2053_B20230309 was discovered to contain a command injection vulnerability via the agentName parameter in the setEasyMeshAgentCfg function."
+  },
+  {
+    "external_id": "CVE-2025-61045",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T15:15:49.260",
+    "vendors": [],
+    "products": [],
+    "description": "TOTOLINK X18 V9.1.0cu.2053_B20230309 was discovered to contain a command injection vulnerability via the mac parameter in the setEasyMeshAgentCfg function."
+  },
+  {
+    "external_id": "CVE-2023-50301",
+    "severity": "Unknown",
+    "cvss_score": 1.9,
+    "published_date": "2025-10-01T16:15:51.920",
+    "vendors": [],
+    "products": [],
+    "description": "IBM Transformation Extender Advanced 10.0.1 stores potentially sensitive information in log files that could be read by a local user."
+  },
+  {
+    "external_id": "CVE-2025-56514",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-01T16:15:53.067",
+    "vendors": [],
+    "products": [],
+    "description": "Cross Site Scripting (XSS) vulnerability in Fiora chat application 1.0.0 allows executes arbitrary JavaScript when malicious SVG files are rendered by other users."
+  },
+  {
+    "external_id": "CVE-2025-56515",
+    "severity": "Unknown",
+    "cvss_score": 8.8,
+    "published_date": "2025-10-01T16:15:53.217",
+    "vendors": [],
+    "products": [],
+    "description": "File upload vulnerability in Fiora chat application 1.0.0 through user avatar upload functionality. The application fails to validate SVG file content, allowing malicious SVG files with embedded forei"
+  },
+  {
+    "external_id": "CVE-2023-49881",
+    "severity": "Unknown",
+    "cvss_score": 6.3,
+    "published_date": "2025-10-01T17:15:37.367",
+    "vendors": [],
+    "products": [],
+    "description": "IBM Transformation Extender Advanced 10.0.1 \n\ndoes not invalidate session after logout which could allow an authenticated user to impersonate another user on the system."
+  },
+  {
+    "external_id": "CVE-2023-49883",
+    "severity": "Unknown",
+    "cvss_score": 5.9,
+    "published_date": "2025-10-01T17:15:37.643",
+    "vendors": [],
+    "products": [],
+    "description": "IBM Transformation Extender Advanced 10.0.1 \n\n\n\n\n\ndoes not require that users should have strong passwords by default, which makes it easier for attackers to compromise user accounts."
+  },
+  {
+    "external_id": "CVE-2023-50300",
+    "severity": "Unknown",
+    "cvss_score": 5.1,
+    "published_date": "2025-10-01T17:15:37.823",
+    "vendors": [],
+    "products": [],
+    "description": "IBM Transformation Extender Advanced 10.0.1 \n\n\n\ncould allow a local user to perform unauthorized actions due to improper access controls."
+  }
+]
