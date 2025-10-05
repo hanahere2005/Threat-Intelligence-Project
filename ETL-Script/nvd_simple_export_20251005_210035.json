@@ -1,0 +1,182 @@
+[
+  {
+    "external_id": "CVE-2025-56154",
+    "severity": "Unknown",
+    "cvss_score": 6.1,
+    "published_date": "2025-10-02T16:15:34.773",
+    "vendors": [],
+    "products": [],
+    "description": "htmly v3.0.8 is vulnerable to Cross Site Scripting (XSS) in the /author/:name endpoint of the affected application. The name parameter is not properly sanitized before being reflected in the HTML resp"
+  },
+  {
+    "external_id": "CVE-2025-56161",
+    "severity": "Unknown",
+    "cvss_score": 7.5,
+    "published_date": "2025-10-02T16:15:34.910",
+    "vendors": [],
+    "products": [],
+    "description": "YOSHOP 2.0 allows unauthenticated information disclosure via comment-list API endpoints in the Goods module. The Comment model eagerly loads the related User model without field filtering; because Use"
+  },
+  {
+    "external_id": "CVE-2025-56162",
+    "severity": "Unknown",
+    "cvss_score": 6.5,
+    "published_date": "2025-10-02T16:15:35.047",
+    "vendors": [],
+    "products": [],
+    "description": "YOSHOP 2.0 suffers from an unauthenticated SQL injection in the goodsIds parameter of the /api/goods/listByIds endpoint. The getListByIds function concatenates user input into orderRaw('field(goods_id"
+  },
+  {
+    "external_id": "CVE-2025-57305",
+    "severity": "Unknown",
+    "cvss_score": 6.5,
+    "published_date": "2025-10-02T16:15:35.350",
+    "vendors": [],
+    "products": [],
+    "description": "VitaraCharts 5.3.5 is vulnerable to Server-Side Request Forgery in fileLoader.jsp."
+  },
+  {
+    "external_id": "CVE-2025-60660",
+    "severity": "Unknown",
+    "cvss_score": 7.5,
+    "published_date": "2025-10-02T16:15:38.380",
+    "vendors": [],
+    "products": [],
+    "description": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the mac parameter in the fromAdvSetMacMtuWan function."
+  },
+  {
+    "external_id": "CVE-2025-60662",
+    "severity": "Unknown",
+    "cvss_score": 7.5,
+    "published_date": "2025-10-02T16:15:38.517",
+    "vendors": [],
+    "products": [],
+    "description": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the wanSpeed parameter in the fromAdvSetMacMtuWan function."
+  },
+  {
+    "external_id": "CVE-2025-34208",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-02T17:16:05.093",
+    "vendors": [],
+    "products": [],
+    "description": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store user passwords using unsalted SHA-512 hashes with a fall-back to unsalted SHA-1. The hashing is "
+  },
+  {
+    "external_id": "CVE-2025-34210",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-02T17:16:05.310",
+    "vendors": [],
+    "products": [],
+    "description": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store a large number of sensitive credentials (database passwords, MySQL root password, SaaS keys, Por"
+  },
+  {
+    "external_id": "CVE-2025-59403",
+    "severity": "Unknown",
+    "cvss_score": 6.5,
+    "published_date": "2025-10-02T17:16:05.530",
+    "vendors": [],
+    "products": [],
+    "description": "The Flock Safety Android Collins application (aka com.flocksafety.android.collins) 6.35.31 for Android lacks authentication. It is responsible for the camera feed on Falcon, Sparrow, and Bravo devices"
+  },
+  {
+    "external_id": "CVE-2025-59405",
+    "severity": "Unknown",
+    "cvss_score": 7.5,
+    "published_date": "2025-10-02T17:16:06.243",
+    "vendors": [],
+    "products": [],
+    "description": "The Flock Safety Peripheral com.flocksafety.android.peripheral application 7.38.3 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) contains a clear"
+  },
+  {
+    "external_id": "CVE-2025-59406",
+    "severity": "Unknown",
+    "cvss_score": 6.2,
+    "published_date": "2025-10-02T17:16:06.880",
+    "vendors": [],
+    "products": [],
+    "description": "The Flock Safety Pisco com.flocksafety.android.pisco application 6.21.11 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) has a cleartext Auth0 cli"
+  },
+  {
+    "external_id": "CVE-2025-59407",
+    "severity": "Unknown",
+    "cvss_score": 9.8,
+    "published_date": "2025-10-02T17:16:07.527",
+    "vendors": [],
+    "products": [],
+    "description": "The Flock Safety DetectionProcessing com.flocksafety.android.objects application 6.35.33 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) bundles a"
+  },
+  {
+    "external_id": "CVE-2025-59409",
+    "severity": "Unknown",
+    "cvss_score": 7.5,
+    "published_date": "2025-10-02T17:16:08.177",
+    "vendors": [],
+    "products": [],
+    "description": "Flock Safety Falcon and Sparrow License Plate Readers OPM1.171019.026 ship with development Wi-Fi credentials (test_flck) stored in cleartext in production firmware."
+  },
+  {
+    "external_id": "CVE-2025-60661",
+    "severity": "Unknown",
+    "cvss_score": 5.3,
+    "published_date": "2025-10-02T17:16:08.817",
+    "vendors": [],
+    "products": [],
+    "description": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the cloneType parameter in the fromAdvSetMacMtuWan function."
+  },
+  {
+    "external_id": "CVE-2025-60663",
+    "severity": "Unknown",
+    "cvss_score": 7.5,
+    "published_date": "2025-10-02T17:16:09.457",
+    "vendors": [],
+    "products": [],
+    "description": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the wanMTU parameter in the fromAdvSetMacMtuWan function."
+  },
+  {
+    "external_id": "CVE-2025-56019",
+    "severity": "Unknown",
+    "cvss_score": 6.5,
+    "published_date": "2025-10-02T18:15:46.163",
+    "vendors": [],
+    "products": [],
+    "description": "An insecure permission vulnerability exists in the Agasta Easytouch+ version 9.3.97 The device allows unauthorized mobile applications to connect via Bluetooth Low Energy (BLE) without authentication."
+  },
+  {
+    "external_id": "CVE-2025-32942",
+    "severity": "Unknown",
+    "cvss_score": 7.2,
+    "published_date": "2025-10-02T19:15:30.123",
+    "vendors": [],
+    "products": [],
+    "description": "SSH Tectia Server before 6.6.6 sometimes allows attackers to read and alter a user's session traffic."
+  },
+  {
+    "external_id": "CVE-2025-49090",
+    "severity": "Unknown",
+    "cvss_score": 7.1,
+    "published_date": "2025-10-02T19:15:31.290",
+    "vendors": [],
+    "products": [],
+    "description": "The Matrix specification before 1.16 (i.e., with a room version before 12 and State Resolution before 2.1) has deficient state resolution."
+  },
+  {
+    "external_id": "CVE-2025-54315",
+    "severity": "Unknown",
+    "cvss_score": 7.1,
+    "published_date": "2025-10-02T19:15:31.477",
+    "vendors": [],
+    "products": [],
+    "description": "The Matrix specification before 1.16 (i.e., with a room version before 12) lacks create event uniqueness."
+  },
+  {
+    "external_id": "CVE-2025-59835",
+    "severity": "Unknown",
+    "cvss_score": null,
+    "published_date": "2025-10-02T19:15:31.983",
+    "vendors": [],
+    "products": [],
+    "description": "LangBot is a global IM bot platform designed for LLMs. In versions 4.1.0 up to but not including 4.3.5, authorized attackers can exploit the /api/v1/files/documents interface to perform arbitrary file"
+  }
+]
